@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>GazeTouch Sensor</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.gazetouch.arkit</string>
+    <key>CFBundleName</key>
+    <string>GazeTouchARKit</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>GazeTouch uses the front camera with ARKit to estimate eye gaze and detect hand pinches locally.</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>GazeTouch sends gaze and hand tracking data to your Windows PC on your local network.</string>
+    <key>NSBonjourServices</key>
+    <array/>
+    <key>UILaunchScreen</key>
+    <dict/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+</dict>
+</plist>
