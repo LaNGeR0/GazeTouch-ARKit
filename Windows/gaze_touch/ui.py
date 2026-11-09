@@ -31,7 +31,9 @@ class CalibrationOverlay(QWidget):
     finished = Signal(object)
 
     AXIS = (0.06, 0.35, 0.65, 0.94)
-    TARGETS = [(x, y) for y in AXIS for x in AXIS]
+    # Class-scope comprehensions cannot resolve sibling class attributes in Python.
+    TARGETS = [(x, y) for y in (0.06, 0.35, 0.65, 0.94)
+               for x in (0.06, 0.35, 0.65, 0.94)]
     SETTLE = 0.65
     SAMPLE = 1.25
     MAX_TIME = 3.0
